@@ -1,19 +1,13 @@
-body {
-	/*background-color: red;*/
-}
-
-#Paniek, #formPaniek {
-	display: none;
-}
-
-#buttonPaniek, #ButtonOnkunde {
+button {
 	border: 1px solid black;
+	background-color: blue;
 }
 
-#buttonPaniek {
+button:hover {
 	background-color: green;
 }
 
-#buttonOnkunde {
-	background-color: red;
+a {
+	text-decoration: none;
+	color: black;
 }

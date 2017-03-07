@@ -2,19 +2,22 @@
 <html>
 <head>
 	<title>Madlibs</title>
+	<link rel="stylesheet" type="text/css" href="Madlibs-CSS.css">
 </head>
 <body>
-<button>Onkunde</button>
-<button>Er is paniek...</button>
-<h1>Er heerst paniek...</h1>
-<p>Er heerst paniek in het koninkrijk <?php echo $_POST["BC"]//BC?>. Koning <?php echo $_POST["BF"]//BF?> is ten einde raad en als koning <?php echo $_POST["BF"]//BF?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo $_POST["BB"]//BB?>.<br>
-"<?php echo $_POST["BB"]//BB?>! Het is een ramp! Het is een schande!"<br>
-"Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"<br>
-"Mijn <?php echo $_POST["BA"]//BA?> is verdwenen! Zo maar, zonder waarschuwing. En ik had net <?php echo $_POST["BE"]//BE?> vor hem gekocht!"<br>
-"Majesteit, uw <?php echo $_POST["BA"]//BA?> komt vast vanzelf weer terug?"<br>
-"Ja, da's leuk en aardig, maar hoe moet ik in de tussentijd <?php echo $_POST["BH"]//BH?> leren?"<br>
-"Maar Sire, daar kunt u toch uw <?php echo $_POST["BG"]//BG?> voor gebruiken."<br>
-"<?php echo $_POST["BB"]//BB?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."<br>
-"<?php echo $_POST["BD"]//BD?>, Sire."<br></p>
+<button id="buttonOnkunde"><a href="Index.php">Onkunde</a></button>
+<button id="buttonPaniek"><a href="madlibs_Paniek.php">Er is paniek...</a></button>
+<h1 id="Paniek">Er is paniek...</h1>
+<form id="formPaniek" action="madlibs_PaniekForm.php" method="post">
+	Welk dier zou je nooit als huisdier willen hebben? <input type="text" name="BA"><br>
+	Wie is de beangrijkste persoon in je leven? <input type="text" name="BB"><br>
+	In welk land zou je graag willen wonen? <input type="text" name="BC"><br>
+	Wat doe je als je je verveelt? <input type="text" name="BD"><br>
+	Met welk speelgoed speelde je als kind het meest? <input type="text" name="BE"><br>
+	Bij welke docent spijbel je het liefst? <input type="text" name="BF"><br>
+	als je € 100.000,- had, wat zou je dan kopen? <input type="text" name="BG"><br>
+	Wat is je favoriete bezigheid? <input type="text" name="BH"><br>
+	<input type="submit">
+</form>
 </body>
 </html>
