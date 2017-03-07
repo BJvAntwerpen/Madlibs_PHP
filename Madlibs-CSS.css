@@ -11,3 +11,8 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+form {
+	background-color: cyan;
+	width: 340px;
+}
