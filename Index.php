@@ -9,13 +9,13 @@
 <button id="buttonPaniek"><a href="madlibs_Paniek.php">Er is paniek...</a></button>
 <h1 id="Onkunde">Onkunde</h1>
 <form id="formOnkunde" action="madlibs_OnkundeForm.php" method="post">
-	Wat zou je graag willen kunnen? <input type="text" name="AA"><br>
-	Met welke persoon kun je goed opschieten? <input type="text" name="AB"><br>
-	Wat is je favoriete getal? <input type="text" name="AC"><br>
-	Wat heb je altijd bij je als je op vakantie gaat? <input type="text" name="AD"><br>
-	Wat is je beste persoonlijke eigenschap? <input type="text" name="AE"><br>
-	Wat is je slechtste persoonlijke eigenschap? <input type="text" name="AF"><br>
-	Wat is het ergste dat je kan overkomen? <input type="text" name="AG"><br>
+	<label>Wat zou je graag willen kunnen?</label> <input type="text" name="AA"><br>
+	<label>Met welke persoon kun je goed opschieten?</label> <input type="text" name="AB"><br>
+	<label>Wat is je favoriete getal?</label> <input type="text" name="AC"><br>
+	<label>Wat heb je altijd bij je als je op vakantie gaat?</label> <input type="text" name="AD"><br>
+	<label>Wat is je beste persoonlijke eigenschap?</label> <input type="text" name="AE"><br>
+	<label>Wat is je slechtste persoonlijke eigenschap?</label> <input type="text" name="AF"><br>
+	<label>Wat is het ergste dat je kan overkomen?</label> <input type="text" name="AG"><br>
 	<input type="submit">
 </form>
 </body>
