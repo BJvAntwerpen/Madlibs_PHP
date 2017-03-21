@@ -19,4 +19,9 @@ form {
 
 p {
 	background-color: cyan;
+	width: 500px;
+}
+
+h1,label,p {
+	font-family: "Commic Sans MS", sans-serif;
 }
